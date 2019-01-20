@@ -7,8 +7,14 @@ body {
 }
 
 .home-links{
-  padding-top: 3em;
+  padding-top: 4em;
+  padding-bottom: 5em;
   font-weight: 600;
+  text-align: center;
+}
+
+.home-links-text{
+  padding-bottom: 2em;
 }
 
 .bio {
@@ -25,4 +31,14 @@ body {
 .contact {
   padding-top: 5em;
   text-align: center;
+}
+
+#nav-logo{
+  display: inline-block;
+}
+
+#nav-logo-text{
+  display: inline-block;
+  margin-left: .5em;
+  color: rgb(233, 231, 231);
 }
