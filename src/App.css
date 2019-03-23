@@ -1,9 +1,11 @@
 body {
-  background-color: #c0c5ce;
-}
+  background-color: #f0f2f7;
+  font-family: 'Exo 2', sans-serif;
+ }
 
 .carousel {
   text-align: center;
+  width: 100%;
 }
 
 .home-links{
@@ -17,28 +19,49 @@ body {
   padding-bottom: 2em;
 }
 
-.bio {
-  padding-top: 5em;
-  text-align: center;
-}
-
 .bio-text {
-  padding-bottom: 5em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding: 2em;
   font-size: 14pt;
   font-weight: 600;
+  text-align: left;
 }
 
 .contact {
-  padding-top: 5em;
+  margin-top: 5em;
+  padding: 2em;
   text-align: center;
 }
 
-#nav-logo{
-  display: inline-block;
+.projects {
+  margin-top: 1em;
+  margin-left: 10em;
+  width: 80%;
+  text-align: left;
 }
 
-#nav-logo-text{
-  display: inline-block;
-  margin-left: .5em;
-  color: rgb(233, 231, 231);
+#project-title {
+  color: crimson;
+  text-decoration: none;
+}
+
+.project-description {
+  margin-left: 2em;
+}
+
+.navbar-brand {
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  display: block;
+  padding: 15px 20px 18px;
+}
+
+.nav-link {
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  display: block;
+  padding: 15px 20px 18px;
 }

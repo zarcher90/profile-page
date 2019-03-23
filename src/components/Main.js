@@ -3,6 +3,7 @@ import { Switch, Route } from 'react-router-dom';
 import Home from './Home';
 import ContactPage from './ContactPage';
 import BioPage from './BioPage';
+import ProjectPage from './ProjectsPage';
 
 // The Main component renders one of the three provided
 // Routes (provided that one matches). Both the /roster
@@ -13,8 +14,9 @@ const Main = () => (
   <main>
     <Switch>
       <Route exact path='/' component={Home}/>
-      <Route path='/bio' component={BioPage}/>
+      <Route path='/about' component={BioPage}/>
       <Route path='/contact' component={ContactPage}/>
+      <Route path='/projects' component={ProjectPage}/>
     </Switch>
   </main>
 )

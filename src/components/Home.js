@@ -6,7 +6,6 @@ import {
   CarouselIndicators,
   CarouselCaption
 } from 'reactstrap';
-import Icon from './Icon';
 
 const image1 = require('../images/WWM-46.jpg');
 const image2 = require('../images/code.jpg');
@@ -98,14 +97,6 @@ export default class MainPage extends Component {
           <CarouselControl direction="prev" directionText="Previous" onClickHandler={this.previous} />
           <CarouselControl direction="next" directionText="Next" onClickHandler={this.next} />
         </Carousel>
-        <div className='container home-links'>
-          <p className='home-links-text'>Check out my profiles!</p>
-          <div>
-            <Icon name="github" link="https://github.com/zarcher90"/>
-            <Icon name="codePen" link="https://codepen.io/zarcher/"/>
-            <Icon name="LinkedIn" link="https://www.linkedin.com/in/zachary-archer/"/>
-          </div>
-        </div>
       </div>
     )
   }

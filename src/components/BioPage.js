@@ -6,12 +6,14 @@ export default class BioPage extends Component {
     return (
       <div className='bio'>
         <div className='container bio-text'>
+          <h1>Hi I am Zach!</h1>
+          <br/>
           <p>
-            Zach Archer is an IT Analyst at Bayer. He got a B.S. in Computer Science from the Indiana University of Pennslyvania and while in school Zach worked for the Butler Memorial Hospital as 
-            a Desktop Technician for two years. After graduation, Zach entered into Bayer's College New Hire Program and has worked for multiple teams within Bayer over the last five years.
-            When first starting at Bayer, Zach worked for the Application Support team where we worked to support multiple applications and bring new functionality to users. Most recently,
-            Zach has been on the Ebusiness Platform Solutions team where we supported multiple Content Management Systems and was a part of the move to cloud initiatives at Bayer. 
-            The latest project that Zach has been working on is an IoT application that is used within Bayer's Pest Control business. When Zach is not hard at work, he loves spending time
+            I am currently an IT Analyst at Bayer. I have an B.S. in Computer Science from the Indiana University of Pennslyvania and while in school I worked for the Butler Memorial Hospital as 
+            a Desktop Technician for two years. After graduation, I entered into Bayer's College New Hire Program and have worked for multiple teams within Bayer over the last five years.
+            When first starting at Bayer, I worked for the Application Support team where we worked to support multiple applications and bring new functionality to users. Most recently,
+            I have been on the Ebusiness Platform Solutions team where we supported multiple Content Management Systems and I took part in our cloud initiatives at Bayer. 
+            The latest project that I have been working on is an IoT application that is used within Bayer's Pest Control business. When I am not hard at work, I love spending time
             with his family and enjoys the great outdoors! 
           </p>
         </div>

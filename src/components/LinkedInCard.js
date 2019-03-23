@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export class LinkedInCard extends Component {
+export default class LinkedInCard extends Component {
   render() {
     return (
         <div 
@@ -11,16 +11,13 @@ export class LinkedInCard extends Component {
             data-type="vertical" 
             data-theme="dark" 
             data-vanity="zachary-archer"
-            >
+            style={{textAlign: 'center'}}>
                 <a 
                     class="LI-simple-link" 
-                    href='https://www.linkedin.com/in/zachary-archer?trk=profile-badge'
-                    >
+                    href='https://www.linkedin.com/in/zachary-archer?trk=profile-badge'>
                         Zachary Archer
                 </a>
         </div>
     )
   }
 }
-
-export default LinkedInCard
